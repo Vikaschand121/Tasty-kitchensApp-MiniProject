@@ -1,0 +1,71 @@
+.payment_success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.payment_success_image {
+  height: 38.39x;
+  width: 38.39x;
+}
+
+.payment_success_header {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1e293b;
+}
+
+.payment_success_description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+}
+
+.home_btn {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 8px 16px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn_link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .payment_success_image {
+    height: 63.9px;
+    width: 63.9px;
+  }
+
+  .payment_success_header {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .payment_success_description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #64748b;
+  }
+}

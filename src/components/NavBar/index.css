@@ -1,0 +1,151 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  background: #f8fafc;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.nav_option {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  color: #334155;
+  margin-right: 6px;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 26px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f7931e;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 100%;
+    min-width: 1440px;
+    height: 96px;
+  }
+  .nav_container {
+    height: 32px;
+    width: 936px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .hamburgerMenu {
+    display: none;
+  }
+  .nav_options {
+    display: flex;
+  }
+
+  .button {
+    padding: 8px 16px;
+    background: #f7931e;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .mobile_nav_container {
+    display: none;
+  }
+}
+
+.hamburgerMenu {
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile_nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 64px;
+  }
+
+  .logo {
+    width: 35px;
+    margin-right: 5px;
+  }
+  .nav_options {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .mobile_button {
+    padding: 8px 16px;
+    background: #f7931e;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
+
+.mobile_nav_options {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  color: #f7931e;
+}
+
+.nav-close-button {
+  height: 24px;
+  width: 24px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.closeMenu {
+  display: none;
+}

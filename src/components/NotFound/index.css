@@ -1,0 +1,49 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  height: 297px;
+  width: 269px;
+  margin-top: 35px;
+}
+
+.not_found_heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1e293b;
+}
+
+.not_found_description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #475569;
+}
+
+.not_found_home_button {
+  padding: 12px 24px;
+  background: #f7931e;
+  border-radius: 12px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn_link {
+  text-decoration: none;
+}

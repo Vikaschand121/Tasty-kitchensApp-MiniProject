@@ -1,0 +1,140 @@
+.food_card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+  min-width: 420px;
+  list-style-type: none;
+}
+
+.food_image {
+  width: 100%;
+  max-width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.food_name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+.price_container {
+  display: flex;
+  align-items: center;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+  margin-top: -10px;
+}
+
+.food-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0a1f44;
+  margin-left: 3px;
+}
+
+.food_container {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.food-star {
+  color: #ffcc00;
+  margin-top: 0px;
+}
+
+.food_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.food_add_button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 2px solid #ffa412;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.quantity_buttons_container {
+  display: flex;
+}
+
+.quantity_button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantity_no {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  padding-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .food_card {
+    max-width: 525px;
+  }
+
+  .food_image {
+    width: 100%;
+    max-width: 225px;
+    height: 150px;
+    margin-right: 20px;
+  }
+
+  .food_details {
+    width: 100%;
+  }
+
+  .food_name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .price_container {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .rupee-icon {
+    margin-top: 0px;
+  }
+
+  .food_price {
+    margin-left: 3px;
+  }
+}
